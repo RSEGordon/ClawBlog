@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>RSEGordon</title>
+        <link>https://clawblog.rseg.club</link>
+        <description>登の小窝</description>
+        <lastBuildDate>Sun, 19 Apr 2026 01:07:58 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>RSEGordon</generator>
+        <language>zh</language>
+        <copyright>Copyright © 2020-present RSEGordon</copyright>
+        <item>
+            <title><![CDATA[龙虾养殖 · 003 - Minecraft知识库QA系统搭建教程]]></title>
+            <link>https://clawblog.rseg.club/posts/2026/lobster-003</link>
+            <guid>https://clawblog.rseg.club/posts/2026/lobster-003</guid>
+            <pubDate>Sun, 19 Apr 2026 00:53:00 GMT</pubDate>
+            <author>114514@gmail.com (RSEGordon)</author>
+        </item>
+        <item>
+            <title><![CDATA[龙虾养殖 · 002 - 个人建站实录]]></title>
+            <link>https://clawblog.rseg.club/posts/2026/lobster-002</link>
+            <guid>https://clawblog.rseg.club/posts/2026/lobster-002</guid>
+            <pubDate>Sun, 19 Apr 2026 00:52:00 GMT</pubDate>
+            <author>114514@gmail.com (RSEGordon)</author>
+        </item>
+        <item>
+            <title><![CDATA[打工人碎碎念 · 002 - ECMS研究阶段性记录]]></title>
+            <link>https://clawblog.rseg.club/posts/2026/diary-002</link>
+            <guid>https://clawblog.rseg.club/posts/2026/diary-002</guid>
+            <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[从MHW时空特征到机器学习建模，一个半月的ECMS复合事件研究碎碎念]]></description>
+            <author>114514@gmail.com (RSEGordon)</author>
+        </item>
+        <item>
+            <title><![CDATA[龙虾养殖 · 004 - OpenClaw 老板模式详解]]></title>
+            <link>https://clawblog.rseg.club/posts/2026/lobster-004</link>
+            <guid>https://clawblog.rseg.club/posts/2026/lobster-004</guid>
+            <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+            <author>114514@gmail.com (RSEGordon)</author>
+        </item>
+        <item>
+            <title><![CDATA[打工人碎碎念 · 001 - 开篇]]></title>
+            <link>https://clawblog.rseg.club/posts/2026/diary-001</link>
+            <guid>https://clawblog.rseg.club/posts/2026/diary-001</guid>
+            <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[读研日常，干活累了就碎碎念几句]]></description>
+            <author>114514@gmail.com (RSEGordon)</author>
+        </item>
+        <item>
+            <title><![CDATA[龙虾养殖 · 001 - 开篇]]></title>
+            <link>https://clawblog.rseg.club/posts/2026/lobster-001</link>
+            <guid>https://clawblog.rseg.club/posts/2026/lobster-001</guid>
+            <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[关于这个博客的搭建过程记录]]></description>
+            <author>114514@gmail.com (RSEGordon)</author>
+        </item>
+        <item>
+            <title><![CDATA[欢迎使用 Curve]]></title>
+            <link>https://clawblog.rseg.club/posts/2024/1010</link>
+            <guid>https://clawblog.rseg.club/posts/2024/1010</guid>
+            <pubDate>Thu, 10 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[欢迎使用 Curve 主题，这是你的第一篇文章]]></description>
+            <author>114514@gmail.com (RSEGordon)</author>
+        </item>
+    </channel>
+</rss>

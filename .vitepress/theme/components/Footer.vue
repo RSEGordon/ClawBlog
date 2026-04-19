@@ -1,0 +1,193 @@
+<template>
+  <footer id="main-footer" class="main-footer">
+    <div class="footer-content">
+      <div class="copyright">
+        <span class="time">@ 2019 - {{ thisYear }} By </span>
+        <a :href="theme.siteMeta.author.link" class="author link" target="_blank">
+          {{ theme.siteMeta.author.name }}
+        </a>
+        <a class="icp link" :href="icpLink" target="_blank">
+          <i class="iconfont icon-safe" />
+          {{ icpText }}
+        </a>
+        <a v-if="policeLink" class="police link" :href="policeLink" target="_blank">
+          <i class="iconfont icon-safe" />
+          {{ policeText }}
+        </a>
+
+      </div>
+      <div class="meta">
+        <a class="power link" href="https://vitepress.dev/" target="_blank">
+          <span class="by">Powered by</span>
+          <span class="name">VitePress</span>
+        </a>
+
+        <a
+          class="cc link"
+          href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans"
+          target="_blank"
+        >
+          <i class="iconfont icon-line" />
+          <i class="iconfont icon-by-line" />
+          <i class="iconfont icon-nc-line" />
+          <i class="iconfont icon-nd-line" />
+        </a>
+      </div>
+    </div>
+  </footer>
+</template>
+
+<script setup>
+import { storeToRefs } from "pinia";
+import { mainStore } from "@/store";
+
+const store = mainStore();
+const { theme } = useData();
+const { footerIsShow } = storeToRefs(store);
+
+// 视窗监听器
+const observer = ref(null);
+
+// 实时年份
+const thisYear = computed(() => new Date().getFullYear())
+
+const icpLink = computed(() => {
+  if (theme.value.icp?.link) return theme.value.icp.link
+  return 'https://beian.miit.gov.cn/'
+})
+const icpText = computed(() => {
+  if (theme.value.icp?.text) return theme.value.icp.text
+  return theme.value.icp
+})
+const policeLink = computed(() => theme.value.icp?.police?.link || '')
+const policeText = computed(() => theme.value.icp?.police?.text || '')
+
+// 监听页脚视窗
+const isShowFooter = () => {
+  const footerDom = document.getElementById("main-footer");
+  if (!footerDom) return false;
+  if (observer.value) observer.value?.disconnect();
+  observer.value = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      footerIsShow.value = entry.isIntersecting ? true : false;
+    });
+  });
+  // 添加监视器
+  observer.value?.observe(footerDom);
+};
+
+onMounted(() => {
+  isShowFooter();
+});
+
+onBeforeUnmount(() => {
+  if (observer.value) observer.value?.disconnect();
+});
+</script>
+
+<style lang="scss" scoped>
+.main-footer {
+  display: flex;
+  margin-top: 1rem;
+  padding: 1rem 0;
+  background-color: var(--main-card-background);
+  border-top: 1px solid var(--main-card-border);
+  overflow: hidden;
+  animation: show 0.3s backwards;
+  transition:
+    color 0.3s,
+    border 0.3s,
+    background-color 0.3s;
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    color: var(--main-font-color);
+    line-height: 1;
+    min-height: 32px;
+    .copyright {
+      .icp, .police {
+        .iconfont {
+          font-size: 20px;
+          opacity: 0.6;
+        }
+      }
+    }
+    .meta {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .power {
+        margin-right: 4px;
+        .by {
+          font-weight: normal;
+          opacity: 0.8;
+          margin-right: 6px;
+        }
+      }
+      .rss {
+        margin-right: 4px;
+        .iconfont {
+          font-weight: normal;
+          margin-right: 6px;
+        }
+      }
+      .cc {
+        .iconfont {
+          margin: 0 2px;
+          font-weight: normal;
+        }
+      }
+    }
+    .link {
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center;
+      font-weight: bold;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      padding: 8px;
+      margin: 0 2px;
+      height: 38px;
+      border-radius: 12px;
+      transition:
+        color 0.3s,
+        background-color 0.3s;
+      cursor: pointer;
+      .iconfont {
+        font-size: 22px;
+        margin-right: 4px;
+        transition: color 0.3s;
+      }
+      &:hover {
+        color: var(--main-color);
+        background-color: var(--main-color-bg);
+        .iconfont {
+          color: var(--main-color);
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      font-size: 14px;
+      .meta {
+        display: none;
+      }
+    }
+    @media (max-width: 420px) {
+      .copyright {
+        .icp, .police {
+          .iconfont {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+</style>
