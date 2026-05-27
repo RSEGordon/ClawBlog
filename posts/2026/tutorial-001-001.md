@@ -1,6 +1,6 @@
 ---
 title: 彩笔教程 · 001 - Matlab入门到入土·学习路线
-date: 2026-05-27
+date: 2026-05-27 14:30:00
 tags: [MATLAB, 教程, 海洋环境]
 categories: [彩笔教程]
 description: 面向进组学生的MATLAB数据分析教程学习路线，配合实例代码各章节导读。

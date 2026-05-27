@@ -1,6 +1,6 @@
 ---
 title: 彩笔教程 · 004 - Matlab入门到入土·可视化
-date: 2026-05-27
+date: 2026-05-27 14:33:00
 tags: [MATLAB, 教程, 可视化]
 categories: [彩笔教程]
 description: MATLAB绘图基础（pcolor/imagesc/colorbar）+ 峰谷识别boom_recog.m + 按季节分段水华识别recog.m。

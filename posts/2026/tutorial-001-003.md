@@ -1,6 +1,6 @@
 ---
 title: 彩笔教程 · 003 - Matlab入门到入土·数据IO
-date: 2026-05-27
+date: 2026-05-27 14:32:00
 tags: [MATLAB, 教程, 数据IO]
 categories: [彩笔教程]
 description: Read_MatrixData完整函数 + 数据写入导出（TIFF/CSV/NetCDF）+ 常用数据插值方法。

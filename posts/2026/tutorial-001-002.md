@@ -1,6 +1,6 @@
 ---
 title: 彩笔教程 · 002 - Matlab入门到入土·基本操作
-date: 2026-05-27
+date: 2026-05-27 14:31:00
 tags: [MATLAB, 教程, 基础]
 categories: [彩笔教程]
 description: MATLAB以矩阵为基本单位，所有数据都是n维数组。配合文件路径与批量处理完整函数。

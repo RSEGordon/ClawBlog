@@ -1,6 +1,6 @@
 ---
 title: 彩笔教程 · 005 - Matlab入门到入土·信号处理
-date: 2026-05-27
+date: 2026-05-27 14:34:00
 tags: [MATLAB, 教程, 信号处理]
 categories: [彩笔教程]
 description: 数据偏态处理（对数变换）+ FFT频域降噪完整可运行代码。

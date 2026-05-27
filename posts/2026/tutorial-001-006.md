@@ -1,6 +1,6 @@
 ---
 title: 彩笔教程 · 006 - Matlab入门到入土·分析方法
-date: 2026-05-27
+date: 2026-05-27 14:35:00
 tags: [MATLAB, 教程, 分析方法]
 categories: [彩笔教程]
 description: detect.m完整函数 + MHW分类标准 + 随机森林回归 + EOF分解 + 气候指数计算。

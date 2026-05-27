@@ -1,6 +1,6 @@
 ---
 title: 彩笔教程 · 007 - Matlab入门到入土·通用模板
-date: 2026-05-27
+date: 2026-05-27 14:36:00
 tags: [MATLAB, 教程, 通用模板]
 categories: [彩笔教程]
 description: 复合事件检测、多面板绘图、季节分析、区域对比、散点图、地理投影、趋势分析、EOF+Varimax旋转——通用模板全覆盖。
