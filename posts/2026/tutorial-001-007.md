@@ -1,10 +1,10 @@
 ---
-title: 彩笔教程 · 001-007 - 复合事件检测到趋势分析·通用模板
+title: 彩笔教程 · 007 - Matlab入门到入土·通用模板
 date: 2026-05-27
 tags: [MATLAB, 教程, 通用模板]
 categories: [彩笔教程]
 description: 复合事件检测、多面板绘图、季节分析、区域对比、散点图、地理投影、趋势分析、EOF+Varimax旋转——通用模板全覆盖。
-cover: /images/cover-tut-001-007.png
+cover: /images/covers/cover-tut-001-007.png
 ---
 
 > 进阶通用模板，拿来改改数据就能用。

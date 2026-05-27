@@ -1,10 +1,10 @@
 ---
-title: 彩笔教程 · 001-004 - 绘图基础、峰谷识别与水华检测
+title: 彩笔教程 · 004 - Matlab入门到入土·可视化
 date: 2026-05-27
 tags: [MATLAB, 教程, 可视化]
 categories: [彩笔教程]
 description: MATLAB绘图基础（pcolor/imagesc/colorbar）+ 峰谷识别boom_recog.m + 按季节分段水华识别recog.m。
-cover: /images/cover-tut-001-004.png
+cover: /images/covers/cover-tut-001-004.png
 ---
 
 > 画图是数据分析的门面，峰谷识别和水华检测是典型的应用场景。

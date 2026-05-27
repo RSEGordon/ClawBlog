@@ -1,10 +1,10 @@
 ---
-title: 彩笔教程 · 001-005 - 偏态检测与FFT降噪
+title: 彩笔教程 · 005 - Matlab入门到入土·信号处理
 date: 2026-05-27
 tags: [MATLAB, 教程, 信号处理]
 categories: [彩笔教程]
 description: 数据偏态处理（对数变换）+ FFT频域降噪完整可运行代码。
-cover: /images/cover-tut-001-005.png
+cover: /images/covers/cover-tut-001-005.png
 ---
 
 > 信号处理两步走：先看分布是否偏态，再决定要不要频域降噪。

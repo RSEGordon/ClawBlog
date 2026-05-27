@@ -1,10 +1,10 @@
 ---
-title: 彩笔教程 · 001-006 - MHW检测、随机森林与EOF分解
+title: 彩笔教程 · 006 - Matlab入门到入土·分析方法
 date: 2026-05-27
 tags: [MATLAB, 教程, 分析方法]
 categories: [彩笔教程]
 description: detect.m完整函数 + MHW分类标准 + 随机森林回归 + EOF分解 + 气候指数计算。
-cover: /images/cover-tut-001-006.png
+cover: /images/covers/cover-tut-001-006.png
 ---
 
 > 核心分析方法：事件检测、机器学习建模、时空分解。

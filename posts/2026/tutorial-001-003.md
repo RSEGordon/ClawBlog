@@ -1,10 +1,10 @@
 ---
-title: 彩笔教程 · 001-003 - 数据读取、写入与插值
+title: 彩笔教程 · 003 - Matlab入门到入土·数据IO
 date: 2026-05-27
 tags: [MATLAB, 教程, 数据IO]
 categories: [彩笔教程]
 description: Read_MatrixData完整函数 + 数据写入导出（TIFF/CSV/NetCDF）+ 常用数据插值方法。
-cover: /images/cover-tut-001-003.png
+cover: /images/covers/cover-tut-001-003.png
 ---
 
 > 数据是分析的起点。本章覆盖从文件读取、格式转换到插值填补的完整数据处理流程。
